@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Agrandir-wideThin";
+  src: url("../../../public/fonts/Agrandir-WideThin/Agrandir-WideThin.otf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Madelyn";
+  src: url("../../../public/fonts/Madelyn/Madelyn.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-2);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color);
+  background-color: var(--white-2);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}

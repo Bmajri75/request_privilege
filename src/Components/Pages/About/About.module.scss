@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+
+  h1 {
+    color: var(--text-color-2);
+    font-size: 40px;
+  }
+  .textPresentation {
+    flex-basis: 30%;
+    font-family: var(--font-family);
+    padding: 20px;
+  }
+
+  .videoContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-basis: 70%;
+
+    .videoPlayer {
+      width: 80%;
+    }
+
+    img {
+      height: 200px;
+    }
+  }
+}
