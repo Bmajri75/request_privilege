@@ -5,7 +5,7 @@
   height: 100%;
 
   .imageContainer {
-    height: 80vh;
+    height: 60vh;
     overflow: hidden;
   }
   img {
@@ -13,15 +13,23 @@
     height: 100%;
     object-fit: contain; /* ou bien object-fit: cover */
   }
-  .welcomText {
+  .welcomeTextContainer {
     font-size: 45px;
-    margin-top: -150px;
     color: var(--text-color-2);
   }
 
   @media only screen and (max-width: 768px) {
     .imageContainer {
-      height: 50vh; /* ou une autre valeur selon votre design */
+      height: 40vh; /* ou une autre valeur selon votre design */
+    }
+    .welcomeTextContainer {
+      font-size: 30px;
+      color: var(--text-color-2);
+      text-align: center;
+    }
+    .welcomeTextContainer > p {
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
   }
 }
