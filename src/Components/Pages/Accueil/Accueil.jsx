@@ -14,7 +14,7 @@ function Accueil() {
             className={style.image}
           />
         </div>
-        <div className={style.welcomText}>
+        <div className={style.welcomeTextContainer}>
           <p>Bienvenue Madame, Monsieur, Comment puis-je vous être utile ?</p>
         </div>
       </main>
