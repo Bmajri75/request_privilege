@@ -1,3 +1,15 @@
+@media (max-width: 768px) {
+
+  .container {
+    width: 100%;
+    display: block;
+  }
+  .videoPlayer {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  
 .container {
   display: flex;
 
@@ -6,7 +18,7 @@
     font-size: 40px;
   }
   .textPresentation {
-    flex-basis: 30%;
+    flex-basis: 50%;
     font-family: var(--font-family);
     padding: 20px;
   }
@@ -15,8 +27,8 @@
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    flex-basis: 70%;
+    align-items: center;
+    flex-basis: 50%;
 
     .videoPlayer {
       width: 80%;
@@ -26,4 +38,5 @@
       height: 200px;
     }
   }
+}
 }
