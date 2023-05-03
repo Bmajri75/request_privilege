@@ -25,7 +25,7 @@ function Contact() {
           </div>
           <div className={`${style.yourMessage}`} >
             <h4>Votre message</h4>
-            <input />
+            <textarea />
           </div>
         </form>
       </div>

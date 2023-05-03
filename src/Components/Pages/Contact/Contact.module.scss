@@ -29,6 +29,7 @@ form > div {
 input {
     border-radius: 15px;
     height: 8vh;
+    font-size: 3vh;
     width: 25vw;
     border-color: var(--text-color-2);
     border-width: 3px;
@@ -39,7 +40,12 @@ input {
     padding-top: 5vh;
 }
 
-.yourMessage > input {
+.yourMessage > textarea {
     height: 20vh;
     width: 100%;
+    font-size: 2vh;
+    border-radius: 15px;
+    border-color: var(--text-color-2);
+    border-width: 3px;
+    border-style: solid;
 }
