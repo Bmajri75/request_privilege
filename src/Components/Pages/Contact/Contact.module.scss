@@ -1,0 +1,51 @@
+.container {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 10vh;
+    font-family: var(--font-family);
+}
+
+.titleContainer {
+    text-align: center;
+    padding-bottom: 6vh;
+}
+
+.subtitle {
+    padding-bottom: 5vh;
+}
+
+.title {
+    color: var(--text-color-2);
+}
+
+form > div > h4 {
+    padding-bottom: 1vh;
+}
+
+form > div {
+    padding-bottom: 3vh;
+}
+
+input {
+    border-radius: 15px;
+    height: 8vh;
+    font-size: 3vh;
+    width: 25vw;
+    border-color: var(--text-color-2);
+    border-width: 3px;
+    border-style: solid;
+}
+
+.yourMessage {
+    padding-top: 5vh;
+}
+
+.yourMessage > textarea {
+    height: 20vh;
+    width: 100%;
+    font-size: 2vh;
+    border-radius: 15px;
+    border-color: var(--text-color-2);
+    border-width: 3px;
+    border-style: solid;
+}
