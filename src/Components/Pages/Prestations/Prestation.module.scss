@@ -1,4 +1,13 @@
 .container {
+  h1 {
+    color: var(--text-color-2);
+    font-family: var(--font-family);
+  }
+  .imageContainer {
+  }
   .serviceContainer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
   }
 }

@@ -9,7 +9,7 @@ function Prestations() {
       <Header />
       <div className={`${style.container}`}>
         <h1>Les prestation de</h1>
-        <div>
+        <div className={`${style.imageContainer}`}>
           <img src={`${logo}`} alt="logo de request and privilege" />
           <div className={style.serviceContainer}>
             <Service name="Réservations" />

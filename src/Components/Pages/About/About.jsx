@@ -12,36 +12,36 @@ function About() {
           <h1>À propos</h1>
           <p>
             Bienvenue chez Request&Privilege, la conciergerie privée de luxe qui
-            repond a tous vos besoins. ou que vous souez en France. Fondee par
-            trois aardes du coros expérimentes. nous sommes nes de la cemande
-            croissante de services exclusifs et. sur mesure
+            répond à tous vos besoins, où que vous soyez en France. Fondée par
+            trois ardents du corps expérimentés, nous sommes nés de la demande
+            croissante de services exclusifs et sur mesure.
           </p>
           <p>
-            Nos fondateurs ont travailles aux cote de certaines personnalités
-            les ous influentes du monde. aue ce soit dans indstrie de la mode,
-            di cinéma ou de la finance, développant une expertise approfondie
-            dans la prestation de service de sécurité, de confort et de luxe
+            Nos fondateurs ont travaillé aux côtés de certaines personnalités
+            les plus influentes du monde, que ce soit dans l'industrie de la
+            mode, du cinéma ou de la finance, développant une expertise
+            approfondie dans la prestation de services de sécurité, de confort
+            et de luxe.
           </p>
           <p>
-            Nous sommes fiers d'avoir crée un réseau etendu de partenaires et
-            prestataires soigneusements sélectionnés pour offrir à nos clients
-            des expériences uniques et exceptionnelles
+            Nous sommes fiers d'avoir créé un réseau étendu de partenaires et
+            prestataires soigneusement sélectionnés pour offrir à nos clients
+            des expériences uniques et exceptionnelles.
           </p>
           <p>
-            Notre engagement envers la qualité, la discréction et le
-            professionnalisme nous distinque de a concurence. Oue vous cherchiez
-            à réserver une table dans le meileur restaurant de a vile. a obtenir
-            des billets pour un evenement exclusir ou a organiser un voyage en
-            jet privé, etc., nous sommes là pour vous aider 24h/7.
+            Notre engagement envers la qualité, la discrétion et le
+            professionnalisme nous distingue de la concurrence. Que vous
+            cherchiez à réserver une table dans le meilleur restaurant de la
+            ville, à obtenir des billets pour un événement exclusif ou à
+            organiser un voyage en jet privé, etc., nous sommes là pour vous
+            aider 24h/7.
           </p>
-
           <p>
             Chez Request&Privilege, nous sommes passionnés par ce que nous
-            Taisons et nous sommes tiers de Tournir un service soigne
-            personnalise et haut de gamme a chaque client
+            faisons et nous sommes fiers de fournir un service soigné,
+            personnalisé et haut de gamme à chaque client.
           </p>
-
-          <p>N'hésitez pas à nous contacter afin de decouvrir nos offres.</p>
+          <p>N'hésitez pas à nous contacter afin de découvrir nos offres.</p>
         </div>
         <div className={`${style.videoContainer}`}>
           <video className={`${style.videoPlayer}`} autoPlay loop>

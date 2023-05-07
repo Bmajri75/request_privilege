@@ -1,0 +1,12 @@
+.container {
+  .borderContainer {
+    position: relative;
+    p {
+      position: absolute;
+      top: 20%;
+      left: 30%;
+      font-size: 20px;
+      font-family: var(--font-family);
+    }
+  }
+}
